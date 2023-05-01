@@ -1,6 +1,10 @@
 .App {
   text-align: center;
 }
+.form-control .form-label:after { 
+  content:"*";
+  color:red;
+}
 
 .App-logo {
   height: 40vmin;
